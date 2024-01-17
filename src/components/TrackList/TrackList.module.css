@@ -1,0 +1,8 @@
+.TrackList {
+  list-style: none;
+  width: 100%;
+}
+
+.li {
+  margin-bottom: 4px;
+}
