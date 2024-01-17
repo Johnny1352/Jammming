@@ -1,0 +1,15 @@
+.App {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.h1 {
+  background-color: #120e46;
+  color: #fff;
+  grid-column: 1 / span 2;
+}
+
+.span {
+  color: #5f247c;
+}

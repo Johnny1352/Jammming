@@ -8,7 +8,9 @@ function Playlist() {
       <div className={styles.Playlist}>
         <input type="text" className={styles.input} />
         <TrackList />
-        <button type="submit">SAVE TO SPOTIFY</button>
+        <button type="submit" className={styles.button}>
+          SAVE TO SPOTIFY
+        </button>
       </div>
     </form>
   );

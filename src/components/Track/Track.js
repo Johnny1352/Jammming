@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Track.module.css";
-import { AddOutline } from "react-ionicons";
 
 function Track() {
   return (
@@ -10,9 +9,7 @@ function Track() {
         <span>Maroon 5 | Songs About Jane</span>
       </div>
       <div className="right">
-        <button className={styles.trackButton}>
-          <AddOutline color={"#ffff"} height="25px" width="25px" />
-        </button>
+        <button className={styles.trackButton}>+</button>
       </div>
     </div>
   );

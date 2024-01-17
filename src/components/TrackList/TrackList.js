@@ -4,14 +4,10 @@ import styles from "./TrackList.module.css";
 
 function TrackList() {
   return (
-    <ul className={styles.TrackList}>
-      <li className={styles.li}>
-        <Track />
-      </li>
-      <li className={styles.li}>
-        <Track />
-      </li>
-    </ul>
+    <div className={styles.TrackList}>
+      <Track />
+      <Track />
+    </div>
   );
 }
 
