@@ -1,0 +1,19 @@
+.Track {
+  /* color: #fff; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.songName {
+  margin-bottom: 0;
+}
+
+.trackButton {
+  background: none;
+  border: none;
+}
+
+.trackButton:hover {
+  cursor: pointer;
+}
