@@ -11,7 +11,7 @@ function Track() {
       </div>
       <div className="right">
         <button className={styles.trackButton}>
-          <AddOutline color={"#00000"} height="25px" width="25px" />
+          <AddOutline color={"#00000"} height="250px" width="250px" />
         </button>
       </div>
     </div>
