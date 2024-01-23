@@ -2,21 +2,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 12px;
-  width: 350px;
-  border: 2px solid #0a073b;
-  background-color: #0f0c46;
-  padding: 12px;
+  overflow-y: scroll;
+  width: 37%;
+  max-height: 950px;
+  padding: 2.27rem 1.16rem;
+  background-color: rgba(1, 12, 63, 0.7);
+  box-shadow: 0 4px 2px 2px #000000;
 }
 
 .input {
   width: 100%;
-  height: 28px;
-  border: none;
-  border-bottom: 2px solid #aaa;
-  background-color: #0f0c46;
-  font-size: 32px;
-  text-align: center;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-bottom: 1px solid #6f6f6f;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.55rem;
   color: #fff;
 }
 
@@ -25,20 +26,32 @@
 }
 
 .button {
-  margin-top: 24px;
-  background-color: #5c35e5;
-  border: none;
+  cursor: pointer;
+  width: 10rem;
+  padding: 0.77rem 0;
+  border-radius: 54px;
+  border-width: 0px;
+  margin-top: 1.27rem;
+  background-color: #6c41ec;
+  text-align: center;
+  font-size: 0.83rem;
+  transition: background-color 0.25s;
   color: #fff;
-  height: 48px;
-  width: 180px;
-  border-radius: 24px;
-  font-weight: 600;
-  font-size: 14px;
-  letter-spacing: 0.4px;
+  font-weight: 500;
 }
 
 .button:hover {
-  cursor: pointer;
-  background-color: #442579;
+  background-color: #6c41e9b3;
   transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+@media only screen and (max-width: 1020px) {
+  .Playlist {
+    width: 90%;
+  }
 }

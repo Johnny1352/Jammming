@@ -1,25 +1,38 @@
 .Track {
-  color: #fff;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid #555;
-  padding-bottom: 24px;
-}
-
-.songName {
-  margin-bottom: 0;
+  border-bottom: 1px solid rgba(256, 256, 256, 0.8);
 }
 
 .trackButton {
+  cursor: pointer;
+  padding: 0.5rem;
+  font-size: 1.05rem;
+  transition: color 0.25s;
+  border: 0px;
+  background-color: rgba(0, 0, 0, 0);
   color: #fff;
-  font-size: 24px;
-  background: none;
-  border: none;
 }
 
 .trackButton:hover {
-  cursor: pointer;
-  color: #666;
+  color: rgba(265, 265, 265, 0.5);
   transition: all 0.3s ease;
+}
+
+.information {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 72px;
+}
+
+.information h3 {
+  margin-bottom: 0.22rem;
+}
+
+.information p {
+  font-size: 0.83rem;
+  font-weight: 300;
+  color: rgba(256, 256, 256, 0.8);
 }

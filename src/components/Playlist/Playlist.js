@@ -4,15 +4,11 @@ import styles from "./Playlist.module.css";
 
 function Playlist() {
   return (
-    <form>
-      <div className={styles.Playlist}>
-        <input type="text" className={styles.input} />
-        <TrackList />
-        <button type="submit" className={styles.button}>
-          SAVE TO SPOTIFY
-        </button>
-      </div>
-    </form>
+    <div className={styles.Playlist}>
+      <input type="text" className={styles.input} />
+      <TrackList />
+      <button className={styles.button}>SAVE TO SPOTIFY</button>
+    </div>
   );
 }
 
