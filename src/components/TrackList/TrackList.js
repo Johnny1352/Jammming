@@ -5,7 +5,9 @@ import styles from "./TrackList.module.css";
 function TrackList(props) {
   return (
     <div className={styles.TrackList}>
-      <Track />
+      {props.tracks.map((track) => {
+        return <Track key={track.id} track={track} />;
+      })}
     </div>
   );
 }

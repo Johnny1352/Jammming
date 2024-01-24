@@ -5,6 +5,27 @@ import Playlist from "../Playlist/Playlist";
 import styles from "./App.module.css";
 
 function App() {
+  const [searchResults, setSearchResult] = useState([
+    {
+      id: 1,
+      name: "The Sun",
+      artist: "Maroon 5",
+      album: "Songs About Jane",
+    },
+    {
+      id: 2,
+      name: "Suck My Kiss",
+      artist: "RHCP",
+      album: "Blood Sugar Sex Magic",
+    },
+    {
+      id: 3,
+      name: "Enchanted",
+      artist: "Taylor Swift",
+      album: "Speak Now",
+    },
+  ]);
+
   return (
     <div>
       <h1 className={styles.h1}>
@@ -13,7 +34,7 @@ function App() {
       <div className={styles.App}>
         <SearchBar />
         <div className={styles.container}>
-          <SearchResults />
+          <SearchResults searchResults={searchResults} />
           <Playlist />
         </div>
       </div>
