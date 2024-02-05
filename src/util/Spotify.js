@@ -1,5 +1,5 @@
 const clientId = "cfbcb72ccaf3451f89d5a192ea7af19c";
-const redirectUri = "http://localhost:3000";
+const redirectUri = "https://eloquent-paletas-e786ae.netlify.app";
 let accessToken;
 
 const Spotify = {
